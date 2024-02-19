@@ -4,11 +4,13 @@ pipeline {
         stage('Static Analysis') {
             steps {
                 echo 'Run the static analysis to the code' 
+                echo 'hello world'
             }
         }
         stage('Compile') {
             steps {
                 echo 'Compile the source code' 
+                echo 'hello world'
             }
         }
         stage('Security Check') {
